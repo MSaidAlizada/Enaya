@@ -1,9 +1,11 @@
 import mongoose from "mongoose";
 
 const patientSchema = new mongoose.Schema({
+    hospital: {type: String, required: true},
     name: { type: String, required: true },
     age: { type: Number, required: true },
     number: { type: String, required: true },
+    EmergencyContact: { type: String, required: true },
     bloodType: { type: String, required: false },
     chronicDiseases: { type: Array, required: false },
     allergies: { type: Array, required: false },

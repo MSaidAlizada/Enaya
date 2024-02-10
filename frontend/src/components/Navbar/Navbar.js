@@ -1,5 +1,6 @@
-import {AppBar, Box, Toolbar, Typography, Button, IconButton} from '@mui/material';
-import MenuIcon from '@mui/icons-material/Menu';
+import {AppBar, Box, Toolbar, Typography, Button} from '@mui/material';
+import {Link} from "react-router-dom";
+
 
 const Navbar = () => {
     return ( 
@@ -7,19 +8,11 @@ const Navbar = () => {
             <Box sx={{ flexGrow: 1 }}>
                 <AppBar position="static">
                     <Toolbar>
-                    <IconButton
-                        size="large"
-                        edge="start"
-                        color="inherit"
-                        aria-label="menu"
-                        sx={{ mr: 2 }}
-                    >
-                        <MenuIcon />
-                    </IconButton>
-                    <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+                    <Typography variant="h6"  component={Link} to="/" sx={{ flexGrow: 1, textDecoration: "none", textDecorationColor: "white", textDecorationStyle: "none", color: "white" }}>
                         Enaya
                     </Typography>
-                    <Button color="inherit">Login</Button>
+                    <Button color="inherit" component={Link} to="/login">Login</Button>
+                    <Button color="inherit" component={Link} to="/signup">Sign Up</Button>
                     </Toolbar>
                 </AppBar>
             </Box>

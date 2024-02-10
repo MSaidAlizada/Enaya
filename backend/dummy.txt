@@ -1,0 +1,50 @@
+{
+    hospital: "Hamad Hospital",
+    name: "Salman Hajizada",
+    age: 18,
+    number: 50010749,
+    EmergencyContact: 78391573,
+    bloodType: "R",
+    chronicDiseases: ['asthma'],
+    allergies: [],
+    onMedication: ['accutane'],
+    MedicalHistory: {
+        date: "2023-05-15",
+        description: "Routine checkup, no issues reported.",
+        doctor: "Dr. Ahmed"
+    }
+}
+
+{
+    hospital: "Al Ahli Hospital",
+    name: "Fatima Khalid",
+    age: 32,
+    number: 50321678,
+    EmergencyContact: 77982134,
+    bloodType: "B",
+    chronicDiseases: [],
+    allergies: ['penicillin'],
+    onMedication: [],
+    MedicalHistory: {
+        date: "2023-08-20",
+        description: "Flu symptoms, prescribed antibiotics.",
+        doctor: "Dr. Sarah"
+    }
+}
+
+{
+    hospital: "Rumailah Hospital",
+    name: "Ahmed Abdullah",
+    age: 45,
+    number: 50984321,
+    EmergencyContact: 78856342,
+    bloodType: "O",
+    chronicDiseases: ['diabetes'],
+    allergies: ['nuts'],
+    onMedication: ['insulin'],
+    MedicalHistory: {
+        date: "2023-10-10",
+        description: "Follow-up appointment for diabetes management.",
+        doctor: "Dr. Yusuf"
+    }
+}

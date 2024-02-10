@@ -1,6 +1,7 @@
 // import { Box } from "@mui/material";
 import React from "react";
 import styled from "styled-components";
+import {Link} from "react-router-dom";
 
 const StyledHome = styled.div`
     display: flex;
@@ -49,8 +50,8 @@ const Home = () => {
             <Title>Welcome to Enaya</Title>
             <Subtitle>Medical Archives</Subtitle>
             <div>
-                <Button>Log In</Button>
-                <Button>Sign Up</Button>
+            <Button to="/login">Login</Button>
+            <Button to="/signup">Sign Up</Button>
             </div>
         </StyledHome>
     );
