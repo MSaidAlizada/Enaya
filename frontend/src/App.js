@@ -11,7 +11,7 @@ import Patient2 from "./components/Patient/Patient2";
 function App() {
   return (
     <div className="App">
-      <HashRouter>
+      <HashRouter basename="/">
         <Navbar/>
         <Routes>
           <Route index element={<Home />} />
