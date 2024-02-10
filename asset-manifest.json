@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "//msaidalizada.github.io/Enaya/static/css/main.e6c13ad2.css",
+    "main.js": "//msaidalizada.github.io/Enaya/static/js/main.9bce91ab.js",
+    "index.html": "//msaidalizada.github.io/Enaya/index.html",
+    "main.e6c13ad2.css.map": "//msaidalizada.github.io/Enaya/static/css/main.e6c13ad2.css.map",
+    "main.9bce91ab.js.map": "//msaidalizada.github.io/Enaya/static/js/main.9bce91ab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.9bce91ab.js"
+  ]
+}
