@@ -1,5 +1,5 @@
 import Home from "./components/Home/Home";
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { HashRouter, Routes, Route, Navigate } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import Login from "./components/Login/Login";
 import SignUp from "./components/Signup/Signup";
@@ -11,7 +11,7 @@ import Patient2 from "./components/Patient/Patient2";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <HashRouter>
         <Navbar/>
         <Routes>
           <Route index element={<Home />} />
@@ -22,7 +22,7 @@ function App() {
           <Route path="/patient/2" element={<Patient2/>}/>
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
